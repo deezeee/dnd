@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Draggable from './Draggable';
-import { intersectorObserve } from './intersectorObserve';
 
 export default function Dropable({
     children,
